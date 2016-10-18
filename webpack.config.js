@@ -9,6 +9,12 @@ module.exports = {
         filename: 'bundle.js',
         publicPath: '/static/'
     },
+
+    resolve: {
+        root: path.resolve(__dirname, 'src', 'main', 'app', 'modules'),
+        extensions: ['', '.js', '.jsx']
+    },
+
     module: {
         loaders: [
             {
