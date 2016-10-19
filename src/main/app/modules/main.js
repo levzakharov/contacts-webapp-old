@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, hashHistory } from 'react-router';
-import { getRoutes } from './routes';
+import configureStore from './store/configureStore';
+import Root from './containers/Root';
+import {hashHistory} from 'react-router';
 import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 
+const store = configureStore();
 const app = document.getElementById('app');
 
 ReactDOM.render(
-    <Router history={hashHistory} routes={getRoutes()}/>,
+    <Root store={store} history={hashHistory}/>,
     app
 );
