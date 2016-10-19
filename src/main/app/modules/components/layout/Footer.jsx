@@ -1,1 +1,1 @@
-import React from 'react';const Footer = () => (    <footer>        I'm Footer    </footer>);export default Footer;
+import React from 'react';const Footer = () => (    <footer>        <div className="container">            <p className="text-muted">I'm footer</p>        </div>    </footer>);export default Footer;
