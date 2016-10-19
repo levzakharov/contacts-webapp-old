@@ -1,0 +1,1 @@
+import React from 'react';const Footer = () => (    <footer>        I'm Footer    </footer>);export default Footer;

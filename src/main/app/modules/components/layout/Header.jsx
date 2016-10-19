@@ -1,0 +1,1 @@
+import React from 'react';const Header = () => (    <header>I'm Header</header>);export default Header;
