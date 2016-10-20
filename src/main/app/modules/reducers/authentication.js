@@ -1,0 +1,1 @@
+const initialState = () => {    return {        isFetching: false,        isAuthenticated: false,        token: null    }};const authentication = (state = initialState(), action) => {    switch (action.type) {        default:            return state;    }};export default authentication;
