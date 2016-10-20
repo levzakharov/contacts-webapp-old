@@ -1,1 +1,1 @@
-import React from 'react';const LoginPage = () => (    <div>        <h1>Login Page!</h1>    </div>);export default LoginPage;
+import React from 'react';import LoginForm from '../components/LoginForm';class LoginPage extends React.Component {    constructor(props) {        super(props);    }    render() {        return (            <div>                <h1>Login Page!</h1>                <LoginForm/>            </div>        );    }}export default LoginPage;
