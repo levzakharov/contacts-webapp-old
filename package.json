@@ -2,7 +2,7 @@
   "name": "contacts-webapp",
   "private": true,
   "scripts": {
-    "build": "webpack --progress --colors"
+    "start": "webpack-dev-server --inline --content-base . --history-api-fallback --port 3000"
   },
   "author": "Lev Zakharov",
   "dependencies": {
