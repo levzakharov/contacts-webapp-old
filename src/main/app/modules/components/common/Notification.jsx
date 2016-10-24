@@ -1,0 +1,1 @@
+import React from 'react';import {Alert} from 'react-bootstrap';const Notification = ({style, header, text}) => (    <Alert bsStyle={style}>        <h4>{header}</h4>        <p>{text}</p>    </Alert>);export default Notification;
