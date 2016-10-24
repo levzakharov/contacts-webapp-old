@@ -1,0 +1,1 @@
+import React from 'react';class RegistrationPage extends React.Component {    constructor(props) {        super(props);    }    render() {        return (            <div>Registration</div>        )    }}export default RegistrationPage;
